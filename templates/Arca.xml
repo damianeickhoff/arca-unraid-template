@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+    <Name>Arca</Name>
+    <Repository>damianeickhoff/arca:latest</Repository>
+    <Registry>https://hub.docker.com/r/damianeickhoff/arca</Registry>
+    <Icon>https://raw.githubusercontent.com/damianeickhoff/arca/master/public/icon.png</Icon>
+    <Support>https://github.com/damianeickhoff/arca/issues</Support>
+    <Project>https://github.com/damianeickhoff/arca</Project>
+    <Overview>Arca is a self-hosted personal finance dashboard for tracking income, expenses, budgets, subscriptions, and financial goals.</Overview>
+    <Network>bridge</Network>
+    <ExtraParams>--restart unless-stopped</ExtraParams>
+    <Category>Productivity:</Category>
+    <WebUI>http://[IP]:[PORT:3000]</WebUI>
+    <Config Name="Web Interface"
+            Target="3000"
+            Default="3000"
+            Mode="tcp"
+            Description="Arca web interface port"
+            Type="Port"
+            Display="always" />
+    <Config Name="Data"
+            Target="/data"
+            Default="/mnt/user/appdata/arca"
+            Mode="rw"
+            Description="Persistent storage for Arca database"
+            Type="Path"
+            Display="always" />
+</Container>
