@@ -1,11 +1,8 @@
 <?xml version="1.0"?>
 <CommunityApplications>
-<Profile>
-    <Author>Damian Eickhoff</Author>
-    <Github>damianeickhoff</Github>
-    <Name>Damian Eickhoff</Name>
-    <Email>12126826+damianeickhoff@users.noreply.github.com/Email>
-</Profile>
-  <Icon>https://raw.githubusercontent.com/damianeickhoff/arca/master/public/icon.png</Icon>
-  <WebPage>https://github.com/damianeickhoff/Arca</WebPage>
+    <Profile>
+    A modern personal finance dashboard designed to help you understand, track, and improve your financial life.
+    </Profile>
+    <Icon>https://raw.githubusercontent.com/damianeickhoff/arca/master/public/icon.png</Icon>
+    <WebPage>https://github.com/damianeickhoff/Arca</WebPage>
 </CommunityApplications>
